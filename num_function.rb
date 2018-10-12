@@ -1,5 +1,6 @@
-def num_convert_one
+def num_convert_one(number)
+   
 end
 
-def num_convert_two
+def num_convert_two(number)
 end
