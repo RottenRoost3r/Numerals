@@ -7,8 +7,11 @@ class TestNumeralConversion < Minitest::Test
         assert_equal(1, 1)
     end
 
-    def test_that_numbers_change_to_numerals
-        assert_equal("I", num_convert_one(1))
+    def test_that_result_is_string
+        assert_equal(String, num_convert_one(1).class)
     end
+    # def test_that_numbers_change_to_numerals
+    #     assert_equal("I", num_convert_one(1))
+    # end
 
 end
