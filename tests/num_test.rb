@@ -7,4 +7,9 @@ class TestNumeralConversion < Minitest::Test
         assert_equal(1, 1)
     end
 
+    def test_that_result_is_string
+        assert_equal(String, 1.romanizer().class)
+    end
+
+
 end
