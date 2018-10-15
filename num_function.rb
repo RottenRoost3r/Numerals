@@ -1,5 +1,14 @@
-def num_convert_one(number)
-end
+class Integer
 
-def num_convert_two(number)
+    def romanizer()
+        numerals = {
+           "I" => 1
+        }
+        x = self
+        roman = ""
+        numerals.each do |key, value|
+            roman << key
+        end
+        roman
+    end
 end
