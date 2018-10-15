@@ -8,7 +8,7 @@ class TestNumberConversion < Minitest::Test
     end
 
     def test_that_result_is_string
-        assert_equal(String, "I".de_romanizer())
+        assert_equal(Integer, "I".de_romanizer().class)
     end
 
 end
