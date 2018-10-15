@@ -17,4 +17,8 @@ class TestNumeralConversion < Minitest::Test
         assert_equal("III", 3.romanizer())
     end
 
+    def test_that_4_converts
+        assert_equal("IV", 4.romanizer())
+    end
+
 end
