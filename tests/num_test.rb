@@ -64,6 +64,7 @@ class TestNumeralConversion < Minitest::Test
         assert_equal("DXI", 511.romanizer())
         assert_equal("DXL", 540.romanizer())
         assert_equal("DXC", 590.romanizer())
+        assert_equal("CM", 900.romanizer())
     end
 
     def test_that_1000_converts
