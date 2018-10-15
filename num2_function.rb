@@ -5,7 +5,11 @@ class String
             'I' => 1
         }
         result = 0
-        result
+        numbers.each do |key, value|
+            result += value 
+        end
+
+        return result
     end
 
 end
