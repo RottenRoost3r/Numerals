@@ -44,5 +44,10 @@ class TestNumeralConversion < Minitest::Test
     def test_that_50_converts
         assert_equal("L", 50.romanizer())
         assert_equal("LI", 51.romanizer())
+        assert_equal("LX", 60.romanizer())
+    end
+
+    def test_that_100_converts
+        assert_equal("C", 100.romanizer())
     end
 end
