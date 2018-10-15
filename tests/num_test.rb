@@ -56,5 +56,6 @@ class TestNumeralConversion < Minitest::Test
 
     def test_that_500_converts
         assert_equal("D", 500.romanizer())
+        assert_equal("DXI", 511.romanizer())
     end
 end
