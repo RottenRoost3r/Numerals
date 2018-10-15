@@ -37,4 +37,8 @@ class TestNumberConversion < Minitest::Test
         assert_equal(65, "LXV".de_romanizer())
     end
 
+    def test_that_100_converts
+        assert_equal(100, "C".de_romanizer())
+    end
+
 end
