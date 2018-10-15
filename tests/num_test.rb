@@ -56,6 +56,7 @@ class TestNumeralConversion < Minitest::Test
         assert_equal("CC", 200.romanizer())
         assert_equal("CLI", 151.romanizer())
         assert_equal("CXC", 190.romanizer())
+        assert_equal("CD", 400.romanizer())
     end
 
     def test_that_500_converts
