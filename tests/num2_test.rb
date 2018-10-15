@@ -11,4 +11,8 @@ class TestNumberConversion < Minitest::Test
         assert_equal(Integer, "I".de_romanizer().class)
     end
 
+    def test_that_1_converts
+        assert_equal(1, "I".de_romanizer())
+    end
+
 end
