@@ -50,4 +50,8 @@ class TestNumberConversion < Minitest::Test
         assert_equal(592, "DXCII".de_romanizer())
     end
 
+    def test_that_1000_converts
+        assert_equal(1000, "M".de_romanizer())
+    end
+
 end
