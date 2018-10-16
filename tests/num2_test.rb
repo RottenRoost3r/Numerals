@@ -44,4 +44,8 @@ class TestNumberConversion < Minitest::Test
         assert_equal(140, "CXL".de_romanizer())
     end
 
+    def test_that_500_converts
+        assert_equal(500, "D".de_romanizer())
+    end
+    
 end
