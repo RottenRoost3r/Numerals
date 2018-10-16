@@ -56,4 +56,8 @@ class TestNumberConversion < Minitest::Test
         assert_equal(1022, "MXXII".de_romanizer())
     end
 
+    def test_wild_random_numbers
+        assert_equal(1949, "MCMXLIX".de_romanizer())
+    end
+
 end
